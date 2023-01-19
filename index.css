@@ -1,0 +1,47 @@
+.text-1 {
+    font-size: 6rem;
+}
+
+.text-2 {
+    font-size: 1.875rem;
+    line-height: 1.6;
+    width: 60%;
+    font-weight: 400;
+    margin-inline: auto;
+}
+
+.text-1,
+.text-2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.line-1 {
+    border-top: 0.5px solid black;
+    width: 60%;
+    margin-inline: auto;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image {
+    height: 277px;
+    width: 256px;
+    object-fit: cover;
+   }
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
